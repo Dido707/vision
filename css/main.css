@@ -1,0 +1,595 @@
+/*body*/
+/*2016-9-12*/
+@media screen and (min-width:1200px){
+.scan-title,.pic-scan{
+	float:left;
+}
+.scan-title{
+	margin-left:30px;
+}
+.scan-margin{
+	padding-left:65px;
+}
+.scan-title{
+	margin-right:30px;
+   margin-top:60px;
+}
+}
+@media screen and (max-width:1199px) and (min-width:750px){
+.pic-scan,.scan-title{
+	text-align:center;
+}
+.scan{
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+}
+.pic-scan{
+	display:inline-block;
+}
+}
+@media screen and (max-width:749px){
+.scan-title{
+margin-top:10px;
+margin-bottom:50px;
+text-align:center;
+}
+.scan{
+		text-align:center;
+}
+.pic-scan{
+	display:inline-block;
+}
+}
+/*2016-9-12*/
+@media screen and (min-width:750px){
+	.gap-top-l{
+	padding-top:80px;
+}     
+ .gap-top-xl{
+	padding-top:100px;
+} 
+.title .title-left{
+	margin-left:0; 
+}
+.title-right{
+	float:right;
+}
+.gap-src{
+	padding:100px 0;
+}
+.state-margin{
+	margin-top:-60px;
+}
+.state-position img{
+	width:40%;
+	float:left;
+}
+.state-position div{	
+	margin-left:30px;
+	width:50%;
+	float:left;
+	padding-top: 90px;
+}
+.v-center{
+	padding-top: 110px;
+}
+}
+@media screen and (max-width:749px){
+.gap-top-l{
+	padding-bottom:30px;
+}     
+ .gap-top-xl{
+	padding-top:30px;
+} 
+.center-src{
+	text-align:center;
+}  
+.gap-src{
+	padding:50px 0 20px;
+} 
+
+.state-position img{
+	margin-top:50px;
+	width:100%;
+	text-align:center;
+}
+.state-position div{	
+	text-align:center;
+} 
+.v-center{
+	padding-bottom: 50px;
+} 
+.v-center .gap-top{
+	padding-top: 20px;
+} 
+.v-center .title{
+	padding-top: 30px;
+} 
+}
+body,
+a {
+	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", SimSun, 宋体, sans-serif;;
+	letter-spacing: 0.1em;
+}
+
+h1 {
+	letter-spacing: 0.1em;
+	font-size: 6em;
+	white-space: nowrap;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.4em;
+	line-height: 2em;
+}
+
+p,
+h5 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+a,
+h6 {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+h7 {
+	font-size: 0.8em;
+	line-height: 2em;
+}
+p {
+	line-height: 1.8em;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+.red {
+	color: #e92415;
+}
+
+.gray {
+	color: #999;
+}
+.bg-gray {
+	background: #e4e4e4;
+}
+.bg-light-gray {
+	background: #f2f2f2;
+	padding:100px 0;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+.right: {
+	float: right;
+}
+
+/*manager*/
+.grid .col-lg-3 ,.grid .col-md-4 ,.grid .col-sm-6{
+	padding:0;
+}
+figure{
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+.fee,figcaption{
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+figure img{
+	background-color:#ccc;
+}
+figcaption{
+	color:#fff;
+}
+
+.fee{
+	opacity:0;
+	background-color:#e85766;
+	padding:80px 60px;
+}
+.free h3,.pay h3,.free h6,.pay h6{
+padding-left:38px;
+}
+.free h3{
+background:url(../imgs/ad_03.png) no-repeat 0 50%;
+margin-bottom:20px;
+}
+.pay h3{
+background:url(../imgs/ad_07.png) no-repeat 0 50%;
+margin-bottom:20px;
+margin-top:40px;
+}
+.manager-service h2{
+font-size:2em;
+}
+.grid .s-seven{
+	height:360px;
+	width:70%;
+}
+.service-bg{
+	background-color:#999;
+}
+.s-seven .title div{
+background:#fff;
+float:right;
+margin:40px 0 20px;
+}
+.s-seven .title h2{
+font-size:3em;
+}
+.num-s{
+	font-size:14em;
+	margin-right:-24px;
+}
+.manager-service{
+	text-align:center;
+	height:140px;
+	position:absolute;
+	margin:auto;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom:0;
+}
+.line-red{
+	width:60px;
+	height:5px;
+	background-color:#e92415;
+	margin:20px auto 0;
+}
+figure:hover .fee{
+	transition:,opacity 1s;
+	-moz-transition: opacity 1s,-moz-transform 1s;
+	/* Firefox 4 */
+	
+	-webkit-transition: opacity 1s,-webkit-transform 1s;
+	/* Safari and Chrome */
+	
+	-o-transition: opacity 1s,-o-transform 1s;
+	/* Opera */
+
+    opacity:1;
+}
+/*end-manager*/
+
+/*platform*/
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.jc-width{
+	padding-left:10%;
+	padding-right:10%;
+}
+.kongtiao{
+	background:url(../imgs/pic6.jpg) 50%;
+	height:800px;
+}
+.kongtiao .v-center{
+padding-top:400px;
+}
+
+/*end platform*/
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.title div{
+	width: 10%;
+	background:#333;
+	height:5px;
+	margin:20px auto 0; 
+}
+
+.gap{
+	padding:100px 0;
+}
+.gap-sm{
+	padding:80px 0;
+}
+ .gap-top{
+	padding-top:50px;
+} 
+      
+/*nav*/
+.log {
+	padding: 16px 0 0;
+}
+.log-height{
+	height: 57 px;
+}
+
+.navbar-default{
+	background-color: #fff;
+}
+
+#navBar {
+	border-radius: 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.navbar {
+	min-height: 60px;
+	border: 1px solid transparent;
+	margin-bottom: 0;
+	text-align:center;
+}
+
+#menu a {
+	line-height: 57px;
+	padding: 0 20px;
+	color: #333;
+	background-color: #fff;
+}
+
+#menu a:hover {
+	color: #900000;
+}
+
+#menu .active {
+	color: #e92415;
+	border-bottom: 3px solid #e92415;
+}
+
+/*index*/
+.section {
+	color: #fff;
+	text-align: center;
+	background-color:#8a8d9e;
+}
+.section1{
+	background: url(../imgs/manager-bg.jpg) 50%;
+}
+.section2{
+	background: url(../imgs/biaoqian-bg.jpg) 50%;
+}
+.section3{
+	background: url(../imgs/jiadian-bg.jpg) 50%;	
+}
+.tuoguan,
+.fangwei {
+	width: 600px;
+	height: 340px;
+	padding: 40px;
+	border: 1px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pingtai {
+	width: 660px;
+	height: 340px;
+	padding: 40px;
+	border: 1px solid #fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section h1{
+	border-bottom:3px solid #e92415;
+	padding-bottom:20px;
+	display:inline-block;
+}
+.tuoguan h1,
+.fangwei h1 {
+	text-indent: 0.1em;
+	letter-spacing: 0.1em;
+	margin: 0 auto 20px;
+}
+.pingtai h1 {
+	font-size: 5em;
+	text-indent: 0.1em;
+	letter-spacing: 0.1em;
+	margin: 0 auto 20px;
+}
+.tuoguan h2 {
+	text-indent: 0.5em;
+	letter-spacing: 0.6em;
+	margin-bottom:0;
+}
+.fangwei h2 {
+	text-indent: 0.2em;
+	letter-spacing: 0.2em;
+	margin-bottom:0;
+}
+.pingtai h2 {
+	text-indent: 0.6em;
+	letter-spacing: 0.7em;
+    margin:45px auto 0;
+}
+
+.line-biaoqian {
+	margin: 15px auto 30px;
+}
+
+.btn-danger a {
+	color: #fff;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 34px;
+	text-decoration: none;
+}
+.btn-danger{
+	border: none;
+	background-color: #e92415;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	background: #ccc;
+}
+
+/*end index*/
+
+/*download*/
+/*2016-9-12*/
+.download {
+	background: url(../imgs/down-bg.jpg) no-repeat 50% top;
+}
+
+.guanzhu {
+	margin: 150px auto ;
+}
+
+.guanzhu h3 {
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 30px;
+	text-align: center;
+	line-height: 1.8em;
+}
+.scan{
+	color:#e92415;
+	margin-top: 240px;
+	margin-bottom: 100px;
+}
+
+.pic-scan{
+	width:240px;
+	height:240px;
+}
+.pic-app{
+	background-image:url(../imgs/pic-ios.jpg);
+}
+.pic-wechat{
+	background:url(../imgs/pic-wechat.jpg);
+}
+.ios{
+		margin-right:20px;
+}
+.btn-type{
+
+	color:#fff;
+	border-radius:5px;
+	border:none;
+	margin-top:8px;
+	background-color: #999;
+}
+.btn-type:hover{
+	background-color: #e68179;
+}
+.btn-type:active,.scan .active{
+	background-color: #e92415;
+}
+/*2016-9-12*/
+/*end download*/
+
+
+/*jobs*/
+.yaoqiu {
+	margin: 30px auto 60px;
+}
+#myTab {
+	margin: 60px auto 20px;
+}
+
+.nav-pills li {
+	background-color: #fff;
+	margin: 10px 20px 10px 0;
+}
+
+.nav-pills a {
+	text-align: center;
+	width: 120px;
+	color: #666;
+}
+
+.nav-pills> li.active> a,
+.nav-pills> li.active> a:hover,
+.nav-pills> li.active> a:focus {
+	background-color: #e92415;
+}
+
+.zhiwei h4 {
+	font-weight: bold;
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../imgs/zhiwei-bg.png) no-repeat left;
+}
+
+.zhiwei h5 {
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+/*end jobs*/
+
+/*contact*/
+.contact-form{
+	margin-bottom:100px;
+}
+.contact-form .btn{
+	margin-top:20px;
+}
+.contact-bg{
+	background: url(../imgs/contact-bg.jpg) no-repeat 50% top;
+}
+
+.contact-email {
+	margin-top: 30px;
+}
+
+.contact-position {
+	margin-top: 18px;
+	margin-bottom: 60px;
+}
+
+.contact {
+	margin: 90px auto 70px;
+}
+
+.contact h3 {
+	font-weight: bold;
+}
+
+.control-label {
+	padding: 10px 0 10px 15px;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.form-control {
+	box-shadow: none;
+}
+
+
+/*end contact*/
+/*footer*/
+
+footer {
+	background-color: #333;
+}
+
+.banquan {
+	color: #666;
+	text-align: center;
+	padding: 50px;
+	margin:0;
+   line-height:40px;
+}
